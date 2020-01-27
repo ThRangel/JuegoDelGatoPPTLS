@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//aqui haré mi primer comit
 class GatoViewController: UIViewController {
     
     @IBOutlet weak var winnerLabel: UILabel!
