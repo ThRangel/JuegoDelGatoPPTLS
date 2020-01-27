@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0975D552359103B001D4CB2 /* PPTLSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0975D542359103B001D4CB2 /* PPTLSViewController.swift */; };
+		F0A5D3D82357BEB900879CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5D3D72357BEB900879CA5 /* AppDelegate.swift */; };
+		F0A5D3DA2357BEB900879CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5D3D92357BEB900879CA5 /* ViewController.swift */; };
+		F0A5D3DD2357BEB900879CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A5D3DB2357BEB900879CA5 /* Main.storyboard */; };
+		F0A5D3DF2357BEBC00879CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A5D3DE2357BEBC00879CA5 /* Assets.xcassets */; };
+		F0A5D3E22357BEBD00879CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A5D3E02357BEBD00879CA5 /* LaunchScreen.storyboard */; };
+		F0A5D3ED2357BEBD00879CA5 /* ElGatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5D3EC2357BEBD00879CA5 /* ElGatoTests.swift */; };
+		F0A5D3F82357BEBD00879CA5 /* ElGatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5D3F72357BEBD00879CA5 /* ElGatoUITests.swift */; };
+		F0A5D4062357C55600879CA5 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5D4052357C55600879CA5 /* Sign.swift */; };
+		F0A5D4082357C5D000879CA5 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5D4072357C5D000879CA5 /* GameState.swift */; };
+		F15B3C91235E613A001908A7 /* GatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B3C90235E613A001908A7 /* GatoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0A5D3E92357BEBD00879CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A5D3CC2357BEB900879CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A5D3D32357BEB900879CA5;
+			remoteInfo = ElGato;
+		};
+		F0A5D3F42357BEBD00879CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A5D3CC2357BEB900879CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A5D3D32357BEB900879CA5;
+			remoteInfo = ElGato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0975D542359103B001D4CB2 /* PPTLSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTLSViewController.swift; sourceTree = "<group>"; };
+		F0A5D3D42357BEB900879CA5 /* ElGato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElGato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A5D3D72357BEB900879CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0A5D3D92357BEB900879CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0A5D3DC2357BEB900879CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0A5D3DE2357BEBC00879CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0A5D3E12357BEBD00879CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0A5D3E32357BEBD00879CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A5D3E82357BEBD00879CA5 /* ElGatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElGatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A5D3EC2357BEBD00879CA5 /* ElGatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElGatoTests.swift; sourceTree = "<group>"; };
+		F0A5D3EE2357BEBD00879CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A5D3F32357BEBD00879CA5 /* ElGatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElGatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A5D3F72357BEBD00879CA5 /* ElGatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElGatoUITests.swift; sourceTree = "<group>"; };
+		F0A5D3F92357BEBD00879CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A5D4052357C55600879CA5 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		F0A5D4072357C5D000879CA5 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		F15B3C90235E613A001908A7 /* GatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0A5D3D12357BEB900879CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A5D3E52357BEBD00879CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A5D3F02357BEBD00879CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0A5D3CB2357BEB900879CA5 = {
+			isa = PBXGroup;
+			children = (
+				F0A5D3D62357BEB900879CA5 /* ElGato */,
+				F0A5D3EB2357BEBD00879CA5 /* ElGatoTests */,
+				F0A5D3F62357BEBD00879CA5 /* ElGatoUITests */,
+				F0A5D3D52357BEB900879CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A5D3D52357BEB900879CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5D3D42357BEB900879CA5 /* ElGato.app */,
+				F0A5D3E82357BEBD00879CA5 /* ElGatoTests.xctest */,
+				F0A5D3F32357BEBD00879CA5 /* ElGatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A5D3D62357BEB900879CA5 /* ElGato */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5D3D72357BEB900879CA5 /* AppDelegate.swift */,
+				F0A5D3D92357BEB900879CA5 /* ViewController.swift */,
+				F0A5D3DB2357BEB900879CA5 /* Main.storyboard */,
+				F15B3C90235E613A001908A7 /* GatoViewController.swift */,
+				F0975D542359103B001D4CB2 /* PPTLSViewController.swift */,
+				F0A5D4072357C5D000879CA5 /* GameState.swift */,
+				F0A5D4052357C55600879CA5 /* Sign.swift */,
+				F0A5D3DE2357BEBC00879CA5 /* Assets.xcassets */,
+				F0A5D3E02357BEBD00879CA5 /* LaunchScreen.storyboard */,
+				F0A5D3E32357BEBD00879CA5 /* Info.plist */,
+			);
+			path = ElGato;
+			sourceTree = "<group>";
+		};
+		F0A5D3EB2357BEBD00879CA5 /* ElGatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5D3EC2357BEBD00879CA5 /* ElGatoTests.swift */,
+				F0A5D3EE2357BEBD00879CA5 /* Info.plist */,
+			);
+			path = ElGatoTests;
+			sourceTree = "<group>";
+		};
+		F0A5D3F62357BEBD00879CA5 /* ElGatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5D3F72357BEBD00879CA5 /* ElGatoUITests.swift */,
+				F0A5D3F92357BEBD00879CA5 /* Info.plist */,
+			);
+			path = ElGatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A5D3D32357BEB900879CA5 /* ElGato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A5D3FC2357BEBD00879CA5 /* Build configuration list for PBXNativeTarget "ElGato" */;
+			buildPhases = (
+				F0A5D3D02357BEB900879CA5 /* Sources */,
+				F0A5D3D12357BEB900879CA5 /* Frameworks */,
+				F0A5D3D22357BEB900879CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElGato;
+			productName = ElGato;
+			productReference = F0A5D3D42357BEB900879CA5 /* ElGato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0A5D3E72357BEBD00879CA5 /* ElGatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A5D3FF2357BEBD00879CA5 /* Build configuration list for PBXNativeTarget "ElGatoTests" */;
+			buildPhases = (
+				F0A5D3E42357BEBD00879CA5 /* Sources */,
+				F0A5D3E52357BEBD00879CA5 /* Frameworks */,
+				F0A5D3E62357BEBD00879CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A5D3EA2357BEBD00879CA5 /* PBXTargetDependency */,
+			);
+			name = ElGatoTests;
+			productName = ElGatoTests;
+			productReference = F0A5D3E82357BEBD00879CA5 /* ElGatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0A5D3F22357BEBD00879CA5 /* ElGatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A5D4022357BEBD00879CA5 /* Build configuration list for PBXNativeTarget "ElGatoUITests" */;
+			buildPhases = (
+				F0A5D3EF2357BEBD00879CA5 /* Sources */,
+				F0A5D3F02357BEBD00879CA5 /* Frameworks */,
+				F0A5D3F12357BEBD00879CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A5D3F52357BEBD00879CA5 /* PBXTargetDependency */,
+			);
+			name = ElGatoUITests;
+			productName = ElGatoUITests;
+			productReference = F0A5D3F32357BEBD00879CA5 /* ElGatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A5D3CC2357BEB900879CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "CEDAM 25";
+				TargetAttributes = {
+					F0A5D3D32357BEB900879CA5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F0A5D3E72357BEBD00879CA5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F0A5D3D32357BEB900879CA5;
+					};
+					F0A5D3F22357BEBD00879CA5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F0A5D3D32357BEB900879CA5;
+					};
+				};
+			};
+			buildConfigurationList = F0A5D3CF2357BEB900879CA5 /* Build configuration list for PBXProject "ElGato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0A5D3CB2357BEB900879CA5;
+			productRefGroup = F0A5D3D52357BEB900879CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A5D3D32357BEB900879CA5 /* ElGato */,
+				F0A5D3E72357BEBD00879CA5 /* ElGatoTests */,
+				F0A5D3F22357BEBD00879CA5 /* ElGatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0A5D3D22357BEB900879CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A5D3E22357BEBD00879CA5 /* LaunchScreen.storyboard in Resources */,
+				F0A5D3DF2357BEBC00879CA5 /* Assets.xcassets in Resources */,
+				F0A5D3DD2357BEB900879CA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A5D3E62357BEBD00879CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A5D3F12357BEBD00879CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0A5D3D02357BEB900879CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0975D552359103B001D4CB2 /* PPTLSViewController.swift in Sources */,
+				F0A5D3DA2357BEB900879CA5 /* ViewController.swift in Sources */,
+				F0A5D4082357C5D000879CA5 /* GameState.swift in Sources */,
+				F15B3C91235E613A001908A7 /* GatoViewController.swift in Sources */,
+				F0A5D3D82357BEB900879CA5 /* AppDelegate.swift in Sources */,
+				F0A5D4062357C55600879CA5 /* Sign.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A5D3E42357BEBD00879CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A5D3ED2357BEBD00879CA5 /* ElGatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A5D3EF2357BEBD00879CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A5D3F82357BEBD00879CA5 /* ElGatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0A5D3EA2357BEBD00879CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A5D3D32357BEB900879CA5 /* ElGato */;
+			targetProxy = F0A5D3E92357BEBD00879CA5 /* PBXContainerItemProxy */;
+		};
+		F0A5D3F52357BEBD00879CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A5D3D32357BEB900879CA5 /* ElGato */;
+			targetProxy = F0A5D3F42357BEBD00879CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0A5D3DB2357BEB900879CA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A5D3DC2357BEB900879CA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0A5D3E02357BEBD00879CA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A5D3E12357BEBD00879CA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0A5D3FA2357BEBD00879CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0A5D3FB2357BEBD00879CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A5D3FD2357BEBD00879CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8FM5R7M3P;
+				INFOPLIST_FILE = ElGato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.ElGato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0A5D3FE2357BEBD00879CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8FM5R7M3P;
+				INFOPLIST_FILE = ElGato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.ElGato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0A5D4002357BEBD00879CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8FM5R7M3P;
+				INFOPLIST_FILE = ElGatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.ElGatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElGato.app/ElGato";
+			};
+			name = Debug;
+		};
+		F0A5D4012357BEBD00879CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8FM5R7M3P;
+				INFOPLIST_FILE = ElGatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.ElGatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElGato.app/ElGato";
+			};
+			name = Release;
+		};
+		F0A5D4032357BEBD00879CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8FM5R7M3P;
+				INFOPLIST_FILE = ElGatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.ElGatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElGato;
+			};
+			name = Debug;
+		};
+		F0A5D4042357BEBD00879CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8FM5R7M3P;
+				INFOPLIST_FILE = ElGatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.ElGatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElGato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0A5D3CF2357BEB900879CA5 /* Build configuration list for PBXProject "ElGato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A5D3FA2357BEBD00879CA5 /* Debug */,
+				F0A5D3FB2357BEBD00879CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A5D3FC2357BEBD00879CA5 /* Build configuration list for PBXNativeTarget "ElGato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A5D3FD2357BEBD00879CA5 /* Debug */,
+				F0A5D3FE2357BEBD00879CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A5D3FF2357BEBD00879CA5 /* Build configuration list for PBXNativeTarget "ElGatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A5D4002357BEBD00879CA5 /* Debug */,
+				F0A5D4012357BEBD00879CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A5D4022357BEBD00879CA5 /* Build configuration list for PBXNativeTarget "ElGatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A5D4032357BEBD00879CA5 /* Debug */,
+				F0A5D4042357BEBD00879CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0A5D3CC2357BEB900879CA5 /* Project object */;
+}
